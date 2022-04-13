@@ -22,3 +22,14 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+# MVP's
+
+- Login page with User Auth
+- Demo page
+- Pushed to github
+- Create listings
+- Review Listings
+- Book stays
+- Search by location

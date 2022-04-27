@@ -1,5 +1,38 @@
 {
-  "name": "LandBnB",
-  "private": true,
-  "dependencies": {}
+  "name": "landbnb",
+  "version": "1.0.0",
+  "description": "This README would normally document whatever steps are necessary to get the application up and running.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hisrael1/LandBnB.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hisrael1/LandBnB/issues"
+  },
+  "homepage": "https://github.com/hisrael1/LandBnB#readme",
+  "dependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.5",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-redux": "^8.0.1",
+    "redux": "^4.2.0",
+    "redux-logger": "^3.0.6",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  }
 }

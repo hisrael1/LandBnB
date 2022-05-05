@@ -1,0 +1,76 @@
+
+#container {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: auto;
+    position: relative;
+    background-color: black;
+}
+
+#splash-main-pic {
+    display: flex;
+    height: 100%;
+    width: 90%; 
+    align-items: center;
+    top: 20%;
+}
+
+#splash-main-pic-container {
+    position: static;
+    top: 0%;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    resize: 50%;
+    background-color: black;
+}
+
+#name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+#header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 85px; 
+}
+
+#hamburger-icon {
+    height: 75%;
+    width: 15%;
+}
+
+#search > * {
+    height: 50px;
+}
+
+#left-edge-search {
+    border-radius: 15px 0px 0px 15px;
+}
+
+#right-edge-search {
+    border-radius: 0px 15px 15px 0px;
+}
+
+.menu-dropdown {
+    display: none;
+    color: aliceblue;
+    position: absolute;
+    // justify-content: flex-end;
+    // align-items: flex-end;
+}
+
+.menu-container:hover .menu-dropdown {
+    display: block;
+}
+
+
+// I should also create my search

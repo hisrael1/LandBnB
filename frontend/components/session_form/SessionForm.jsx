@@ -9,6 +9,7 @@ class SessionForm extends React.Component {
       password: ""
     };
     this.handleSubmit = this.handleSubmit.bind(this);
+    this.demoSubmit = this.demoSubmit.bind(this);
   }
 
   handleSubmit(e){
@@ -24,6 +25,15 @@ class SessionForm extends React.Component {
       });
     };
   }
+
+  demoSubmit(e) {
+      e.preventDefault();
+      const user = {
+        email: "user@demo.com",
+        password: "password"
+      }
+      this.props.processForm(user);
+  };
   
   render () {
    return (
@@ -39,6 +49,8 @@ class SessionForm extends React.Component {
         </label>
         <br />
         <button>{this.props.formType}</button>
+        {/* change this when I get the chance */}
+        <button onClick={this.demoSubmit}>{'Demo'}</button>
       </form>
       <Link to={`/${this.props.formType === "login" ? "signup" : "login"}`}></Link>
         {

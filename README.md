@@ -15,3 +15,12 @@ Welcome to LandBnB! LandBnB is an AirBnB clone - an online global marketplace fo
 
 # Features
 
+### Hosting on Heroku
+### Login / UserAuth / Splash Page
+### Listings
+### Booking
+### Reviews
+### Search by City
+
+
+

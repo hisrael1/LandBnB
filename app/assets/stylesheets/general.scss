@@ -1,4 +1,3 @@
-
 #container {
     padding-top: 30px;
     display: flex;
@@ -20,7 +19,9 @@
 #splash-main-pic-container {
     position: static;
     top: 0%;
-    margin: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
     display: flex;
     justify-content: center;
     resize: 50%;
@@ -29,11 +30,13 @@
 
 #name {
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
+    font-size: 28px;
     color: white;
     cursor: pointer;
     display: flex;
     align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 #header {
@@ -72,5 +75,56 @@
     display: block;
 }
 
+#city-container {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 70px;
+    margin-right: 70px;
+}
 
-// I should also create my search
+.cities > * > * {
+    height: 170px;
+    width: 260px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+#inspiration {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    margin-left: 80px;
+}
+
+.city {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background-color: rgb(255, 59, 59);
+    border-radius: 12px;
+    height: 320px;
+    width: 260px;
+}
+
+.cty-text {
+    position: relative;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#footer {
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    overflow: auto;
+    position: relative;
+    background-color: rgb(240, 240, 240);
+}
+
+#footer > * {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
